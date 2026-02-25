@@ -1,4 +1,4 @@
-# Modern Glassmorphism Audio Player
+# Glassmorphism Audio Player
 
 A high-performance, visually stunning React audio player component built with **Lucide React** icons and **CSS Modules**. This player features a fluid seeking experience, real-time duration tracking, and a premium "frosted glass" aesthetic.
 
@@ -12,20 +12,20 @@ A high-performance, visually stunning React audio player component built with **
 
 ## 🏗️ Technical Implementation
 
-## Logic Flow
+### Logic Flow
 
 - **`onLoadedMetadata`**: Triggered as soon as the browser reads the file's duration, ensuring the slider `max` value is set correctly.
 - **`onTimeUpdate`**: Syncs the React `currentTime` state with the native HTML5 audio API for real-time progress.
 - **Smooth Seeking**: Uses `step="0.01"` on the range input to provide sub-second granularity, making the thumb glide rather than jump.
 
-## Visual Architecture
+### Visual Architecture
 
 The player uses specific CSS pseudo-elements to ensure a consistent look across different browsers:
 
 - **`::-webkit-slider-thumb`**: For Chrome, Safari, and Edge.
 - **`::-moz-range-thumb`**: For Firefox.
 
-## Progress Calculation
+### Progress Calculation
 
 The fill effect is calculated dynamically in the JSX to create the "active" track color:
 
