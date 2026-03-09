@@ -2,7 +2,7 @@
 
 A high-performance, visually stunning React audio player component built with **Lucide React** icons and **CSS Modules**. This player features a fluid seeking experience, real-time duration tracking, and a premium "frosted glass" aesthetic.
 
-## 🚀 Features
+## Features
 
 - **Glassmorphism Design:** Semi-transparent backgrounds with `backdrop-filter` blur and subtle borders.
 - **Fluid Seeking:** High-granularity range input (`step="0.01"`) for ultra-smooth dragging.
@@ -10,7 +10,7 @@ A high-performance, visually stunning React audio player component built with **
 - **Smart Metadata:** Automatically handles audio duration to prevent `NaN` errors during load.
 - **Auto-Reset:** Automatically toggles the Play/Pause state when the track finishes.
 
-## 🏗️ Technical Implementation
+## Technical Implementation
 
 ### Logic Flow
 
@@ -31,7 +31,7 @@ The fill effect is calculated dynamically in the JSX to create the "active" trac
 
 $$\text{Progress \%} = \left( \frac{\text{currentTime}}{\text{duration}} \right) \times 100$$
 
-## 📦 Installation
+## Installation
 
 Ensure you have the required icon library installed in your project:
 
@@ -39,7 +39,7 @@ Ensure you have the required icon library installed in your project:
 npm install lucide-react
 ```
 
-## 🛠️ Usage
+## Usage
 
 Import the component and pass a valid audio URL or local file path as the `audioSrc` prop.
 
